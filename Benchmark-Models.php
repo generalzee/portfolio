@@ -189,7 +189,7 @@ function handle_post($morb, $page){
             $lval = array();
             $lgrow = array();
             foreach($handle as $date => $vals){
-                if($date === "Benchmark" || $date === "Model"){
+                if($date === "Benchmark" || $date === "Model"){ //ignores first 2 lines
                     continue;
                 } else {
                     if($morb === 'b'){
@@ -248,7 +248,7 @@ function handle_post($morb, $page){
                     }/*foreach($vals[0] as $sym => $val)*/
 
                     $d++; //iterate date counter
-                }//ignores first 2 lines
+                }
             } /*foreach($handle as $date => $vals)*/
             echo "Added $i new $itable dates. File upload successful! <br>";
         }
