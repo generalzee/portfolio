@@ -1,0 +1,12 @@
+{% extends "default.html" %}
+
+{% block title %}
+{{ item.title }}
+{% endblock %}
+
+{% block body %}
+<article id="item-wrapper">
+  <h1>{{ item.title }}</h1>
+  {{ item.body | raw }}
+</article>
+{% endblock %}

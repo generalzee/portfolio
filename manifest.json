@@ -1,0 +1,14 @@
+{
+  "name": "GEI Template",
+  "version": "1.0.0",
+  "description": "GEI template.",
+  "resources": {
+    "styles": {
+      "base": "/styles/base.less"
+    },
+    "scripts": {
+      "main": "/assets/custom.js"
+    }
+  }
+}
+
