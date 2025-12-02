@@ -7,7 +7,7 @@
     {squarespace-headers}
     
 </head>
-<body id="{squarespace.pageID}" class="{squarespace.pageClasses}">
+<body id="{squarespace.pageID}" class="{squarespace.pageClasses}" data-content-field="main-content">
 
     {squarespace.main-content}
 
