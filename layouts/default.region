@@ -1,0 +1,11 @@
+<main id="page" role="main">
+
+    <div data-content-field="main-content">
+
+        {.section content}
+            {sections}
+        {.end}
+
+    </div>
+
+</main>
