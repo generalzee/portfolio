@@ -7,7 +7,12 @@
 {% block body %}
 <div id="custom-content">
   <!-- Your custom HTML for pages goes here -->
-  <h1>{{ page.title }}</h1>
+  <a class="logo" href="https://geiconsulting.com"><img src="assets/logo.png"></a>
+    <div class="shadow-content">
+        <h1>Lithos Engineering has joined GEI Consultants.</h1>
+        <p>Lithos Engineering was formed with the vision of serving our communities by providing our clients and their projects with recognizable value through prudent site evaluations, constructible solutions, and an understanding of project risks. Lithos focuses on geotechnical, tunnel, trenchless, and geological engineering and design services through innovative, collaborative, client focused consulting uniquely tailored to suit the needs of our clients and their projects. Together Lithos and GEI will better serve our communities and create smart, buildable solutions.</p>
+    </div>
+    <a href="https://geiconsulting.com" class="button">Visit GEI Consultants Today</a>
 
   {% if page.content %}
     {{ page.content | raw }}
