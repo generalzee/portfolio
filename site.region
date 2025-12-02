@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{website.siteTitle}</title>
+
+    {squarespace-headers}
+    
+</head>
+<body id="{squarespace.pageID}" class="{squarespace.pageClasses}">
+
+    {squarespace.main-content}
+
+    {squarespace-footers}
+    
+</body>
+</html>
